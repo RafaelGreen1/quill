@@ -882,11 +882,6 @@
   padding: 5px 12px;
   white-space: nowrap;
 }
-.ql-snow .ql-tooltip::before {
-  content: "Visit URL:";
-  line-height: 26px;
-  margin-right: 8px;
-}
 .ql-snow .ql-tooltip input[type=text] {
   display: none;
   border: 1px solid #ccc;
@@ -909,10 +904,6 @@
   margin-left: 16px;
   padding-right: 8px;
 }
-.ql-snow .ql-tooltip a.ql-remove::before {
-  content: 'Remove';
-  margin-left: 8px;
-}
 .ql-snow .ql-tooltip a {
   line-height: 26px;
 }
@@ -927,15 +918,6 @@
   border-right: 0px;
   content: 'Save';
   padding-right: 0px;
-}
-.ql-snow .ql-tooltip[data-mode=link]::before {
-  content: "Enter link:";
-}
-.ql-snow .ql-tooltip[data-mode=formula]::before {
-  content: "Enter formula:";
-}
-.ql-snow .ql-tooltip[data-mode=video]::before {
-  content: "Enter video:";
 }
 .ql-snow a {
   color: #06c;
